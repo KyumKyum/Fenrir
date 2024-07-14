@@ -2,7 +2,6 @@ package com.fenrir
 
 import com.fenrir.core.Fenrir
 
-
 fun main() {
     val fenrir = Fenrir.getClient()
 
@@ -10,6 +9,7 @@ fun main() {
     print("\u001b[0;0H") // Move the cursor to the top left corner
 
     //** Add banner in here.
+
 }
 
 

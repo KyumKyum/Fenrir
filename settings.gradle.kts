@@ -1,3 +1,9 @@
-
 rootProject.name = "fenrir"
-include("server", "client")
+
+// Include modules
+listOf(
+    "server",
+    "client",
+).forEach{
+    include(it)
+}
