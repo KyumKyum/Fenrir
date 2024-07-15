@@ -1,4 +1,4 @@
-package com.fenrir.plugins
+package com.fenrir.src.plugins
 
 import com.ucasoft.ktor.simpleCache.SimpleCache
 import com.ucasoft.ktor.simpleCache.cacheOutput

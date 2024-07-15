@@ -1,6 +1,9 @@
 package com.fenrir
 
-import com.fenrir.plugins.*
+import com.fenrir.src.plugins.configureHTTP
+import com.fenrir.src.plugins.configureMonitoring
+import com.fenrir.src.controller.configureRouting
+import com.fenrir.src.plugins.configureSerialization
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*

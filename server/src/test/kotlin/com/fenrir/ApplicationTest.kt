@@ -1,6 +1,6 @@
 package com.fenrir
 
-import com.fenrir.plugins.*
+import com.fenrir.src.controller.configureRouting
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*

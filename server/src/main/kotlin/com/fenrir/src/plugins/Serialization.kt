@@ -1,4 +1,4 @@
-package com.fenrir.plugins
+package com.fenrir.src.plugins
 
 import com.fasterxml.jackson.databind.*
 import io.ktor.serialization.jackson.*
