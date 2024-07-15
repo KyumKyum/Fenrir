@@ -1,4 +1,4 @@
-description="client module"
+description = "client module"
 
 plugins {
     kotlin("jvm")
@@ -17,6 +17,10 @@ repositories {
 }
 
 dependencies {
-    implementation("io.ktor:ktor-client-core-jvm")
-    implementation("io.ktor:ktor-client-cio-jvm")
+    implementation(project(":utils"))
+    implementation("io.ktor:ktor-client-core-jvm:2.3.12")
+    implementation("io.ktor:ktor-client-cio-jvm:2.3.12")
+    implementation("io.ktor:ktor-client-serialization:2.3.12")
 }
+
+tasks.test {}

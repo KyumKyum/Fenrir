@@ -4,6 +4,8 @@ rootProject.name = "fenrir"
 listOf(
     "server",
     "client",
+    "utils"
 ).forEach{
     include(it)
+    project(":$it").projectDir = File("$rootDir/$it")
 }
