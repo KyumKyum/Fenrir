@@ -1,16 +1,16 @@
-package com.bifrost.core
+package com.bifrost.api
 
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 
-class Bifrost private constructor(){
+class BifrostApiClient private constructor(){
     companion object {
         private var _client: HttpClient? = null
 
         fun getClient(): HttpClient {
-            return this._client ?: synchronized(this) {
+            return _client ?: synchronized(this) {
                 val client = HttpClient(CIO)
-                this._client = client
+                _client = client
                 return client
             }
         }

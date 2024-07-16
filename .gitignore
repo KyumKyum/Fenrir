@@ -1,3 +1,6 @@
+# Bifrost Storage
+**/stroage
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
