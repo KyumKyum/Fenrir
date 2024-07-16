@@ -1,4 +1,4 @@
-package com.fenrir.src.controller
+package com.bifrost.src.controller
 
 import io.ktor.server.application.*
 import io.ktor.server.response.*

@@ -1,4 +1,4 @@
-package com.fenrir.src.provider
+package com.bifrost.src.provider
 
 import io.github.flaxoos.ktor.server.plugins.kafka.Kafka
 import io.github.flaxoos.ktor.server.plugins.kafka.MessageTimestampType

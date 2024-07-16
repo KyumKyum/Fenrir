@@ -1,6 +1,6 @@
-package com.fenrir
+package com.bifrost
 
-import com.fenrir.src.controller.configureRouting
+import com.bifrost.src.controller.configureRouting
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*

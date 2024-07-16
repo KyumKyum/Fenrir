@@ -2,11 +2,12 @@ description = "server module"
 
 plugins {
     kotlin("jvm") version "1.8.21"
+    kotlin("plugin.serialization")
     application
 }
 
 application {
-    mainClass.set("com.fenrir.ApplicationKt")
+    mainClass.set("com.bifrost.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

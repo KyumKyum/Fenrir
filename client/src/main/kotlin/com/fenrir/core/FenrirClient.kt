@@ -1,9 +1,9 @@
-package com.fenrir.core
+package com.bifrost.core
 
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 
-class Fenrir private constructor(){
+class Bifrost private constructor(){
     companion object {
         private var _client: HttpClient? = null
 

@@ -1,4 +1,4 @@
-rootProject.name = "fenrir"
+rootProject.name = "bifrost"
 
 // Include modules
 listOf(

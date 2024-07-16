@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.gradle.dsl.KotlinJvmCompilerOptions
 
 plugins {
     kotlin("jvm") version "1.8.21"
@@ -7,7 +6,7 @@ plugins {
 }
 
 allprojects {
-    group = "com.fenrir"
+    group = "com.bifrost"
     version = "1.0"
 
     repositories {

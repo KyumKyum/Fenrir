@@ -1,6 +1,6 @@
-package com.fenrir
+package com.bifrost
 
-import com.fenrir.plugins.*
+import com.bifrost.plugins.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*

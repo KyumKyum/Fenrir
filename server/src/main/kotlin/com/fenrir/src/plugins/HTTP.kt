@@ -1,4 +1,4 @@
-package com.fenrir.src.plugins
+package com.bifrost.src.plugins
 
 import com.ucasoft.ktor.simpleCache.SimpleCache
 import com.ucasoft.ktor.simpleCache.cacheOutput

@@ -1,9 +1,9 @@
-package com.fenrir
+package com.bifrost
 
-import com.fenrir.core.Fenrir
+import com.bifrost.core.Bifrost
 
 fun main() {
-    val fenrir = Fenrir.getClient()
+    val bifrost = Bifrost.getClient()
     Banner.printBanner()
 
     //** Add banner in here.

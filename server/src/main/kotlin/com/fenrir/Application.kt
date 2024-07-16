@@ -1,9 +1,9 @@
-package com.fenrir
+package com.bifrost
 
-import com.fenrir.src.plugins.configureHTTP
-import com.fenrir.src.plugins.configureMonitoring
-import com.fenrir.src.controller.configureRouting
-import com.fenrir.src.plugins.configureSerialization
+import com.bifrost.src.plugins.configureHTTP
+import com.bifrost.src.plugins.configureMonitoring
+import com.bifrost.src.controller.configureRouting
+import com.bifrost.src.plugins.configureSerialization
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
