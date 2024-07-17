@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     implementation(project(":utils"))
+    implementation(project(":core"))
     implementation("io.ktor:ktor-client-core-jvm:2.3.12")
     implementation("io.ktor:ktor-client-cio-jvm:2.3.12")
     implementation("io.ktor:ktor-client-serialization:2.3.12")

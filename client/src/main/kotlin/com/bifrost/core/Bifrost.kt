@@ -1,6 +1,5 @@
 package com.bifrost.core
 
-import com.bifrost.exception.RequiredDirCreationException
 import io.ktor.utils.io.errors.*
 
 //* TODO: Replace println in logger

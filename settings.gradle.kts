@@ -4,7 +4,8 @@ rootProject.name = "bifrost"
 listOf(
     "server",
     "client",
-    "utils"
+    "utils",
+    "core"
 ).forEach{
     include(it)
     project(":$it").projectDir = File("$rootDir/$it")

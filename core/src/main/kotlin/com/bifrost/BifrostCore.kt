@@ -1,6 +1,6 @@
 package com.bifrost.core
 
-import com.bifrost.DirectoryManager
+import com.bifrost.core.manager.DirectoryManager
 
 
 class BifrostCore() {
